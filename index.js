@@ -4,7 +4,7 @@ const { createProxyMiddleware } = require("http-proxy-middleware");
 const app = express();
 
 const PORT = 3200;
-const HOST = "0.0.0.0";
+const HOST = "localhost";
 const TARGET = "https://2nwhkl7s-3000.asse.devtunnels.ms";
 
 app.use(
